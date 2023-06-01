@@ -1,0 +1,11 @@
+try:
+    valor = int(input("Digite o valor do seu produto: "))
+    print(valor)
+except ValueError:
+    print("FAVOR DIGITAR UM VALOR EM NÚMEROS!")
+else:
+    print("Usuário digitou um valor correto")
+    resultado = valor * 2
+    print(resultado)
+finally:
+    print("Código Ok")
